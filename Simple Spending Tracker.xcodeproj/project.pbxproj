@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2A339BC62935825000CA2EE4 /* Simple_Spending_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BC52935825000CA2EE4 /* Simple_Spending_TrackerApp.swift */; };
-		2A339BC82935825000CA2EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BC72935825000CA2EE4 /* ContentView.swift */; };
+		2A339BC82935825000CA2EE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BC72935825000CA2EE4 /* HomeView.swift */; };
 		2A339BCA2935825300CA2EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A339BC92935825300CA2EE4 /* Assets.xcassets */; };
 		2A339BCD2935825300CA2EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A339BCC2935825300CA2EE4 /* Preview Assets.xcassets */; };
-		2A339BD72935825400CA2EE4 /* Simple_Spending_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BD62935825400CA2EE4 /* Simple_Spending_TrackerTests.swift */; };
-		2A339BE12935825400CA2EE4 /* Simple_Spending_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BE02935825400CA2EE4 /* Simple_Spending_TrackerUITests.swift */; };
-		2A339BE32935825400CA2EE4 /* Simple_Spending_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BE22935825400CA2EE4 /* Simple_Spending_TrackerUITestsLaunchTests.swift */; };
+		2A339BF02935C19C00CA2EE4 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BEF2935C19C00CA2EE4 /* AnalysisView.swift */; };
+		2A339BF4293690D000CA2EE4 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A339BF3293690D000CA2EE4 /* PurchaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +35,13 @@
 /* Begin PBXFileReference section */
 		2A339BC22935825000CA2EE4 /* Simple Spending Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Spending Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A339BC52935825000CA2EE4 /* Simple_Spending_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Spending_TrackerApp.swift; sourceTree = "<group>"; };
-		2A339BC72935825000CA2EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A339BC72935825000CA2EE4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2A339BC92935825300CA2EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A339BCC2935825300CA2EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A339BD22935825400CA2EE4 /* Simple Spending TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Spending TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A339BD62935825400CA2EE4 /* Simple_Spending_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Spending_TrackerTests.swift; sourceTree = "<group>"; };
 		2A339BDC2935825400CA2EE4 /* Simple Spending TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Spending TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A339BE02935825400CA2EE4 /* Simple_Spending_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Spending_TrackerUITests.swift; sourceTree = "<group>"; };
-		2A339BE22935825400CA2EE4 /* Simple_Spending_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Spending_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A339BEF2935C19C00CA2EE4 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		2A339BF3293690D000CA2EE4 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				2A339BC42935825000CA2EE4 /* Simple Spending Tracker */,
-				2A339BD52935825400CA2EE4 /* Simple Spending TrackerTests */,
-				2A339BDF2935825400CA2EE4 /* Simple Spending TrackerUITests */,
 				2A339BC32935825000CA2EE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				2A339BC52935825000CA2EE4 /* Simple_Spending_TrackerApp.swift */,
-				2A339BC72935825000CA2EE4 /* ContentView.swift */,
+				2A339BC72935825000CA2EE4 /* HomeView.swift */,
+				2A339BEF2935C19C00CA2EE4 /* AnalysisView.swift */,
+				2A339BF3293690D000CA2EE4 /* PurchaseView.swift */,
 				2A339BC92935825300CA2EE4 /* Assets.xcassets */,
 				2A339BCB2935825300CA2EE4 /* Preview Content */,
 			);
@@ -108,23 +106,6 @@
 				2A339BCC2935825300CA2EE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2A339BD52935825400CA2EE4 /* Simple Spending TrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A339BD62935825400CA2EE4 /* Simple_Spending_TrackerTests.swift */,
-			);
-			path = "Simple Spending TrackerTests";
-			sourceTree = "<group>";
-		};
-		2A339BDF2935825400CA2EE4 /* Simple Spending TrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A339BE02935825400CA2EE4 /* Simple_Spending_TrackerUITests.swift */,
-				2A339BE22935825400CA2EE4 /* Simple_Spending_TrackerUITestsLaunchTests.swift */,
-			);
-			path = "Simple Spending TrackerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A339BC82935825000CA2EE4 /* ContentView.swift in Sources */,
+				2A339BC82935825000CA2EE4 /* HomeView.swift in Sources */,
+				2A339BF02935C19C00CA2EE4 /* AnalysisView.swift in Sources */,
 				2A339BC62935825000CA2EE4 /* Simple_Spending_TrackerApp.swift in Sources */,
+				2A339BF4293690D000CA2EE4 /* PurchaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A339BD72935825400CA2EE4 /* Simple_Spending_TrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A339BE12935825400CA2EE4 /* Simple_Spending_TrackerUITests.swift in Sources */,
-				2A339BE32935825400CA2EE4 /* Simple_Spending_TrackerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

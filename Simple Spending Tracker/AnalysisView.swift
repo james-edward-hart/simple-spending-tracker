@@ -11,7 +11,7 @@ var food: Double = 0.0
 var gas: Double = 0.0
 var groceries: Double = 0.0
 var luxuries: Double = 0.0
-var misc: Double = 0.0
+var miscellaneous: Double = 0.0
 
 struct AnalysisView: View {
     
@@ -21,7 +21,6 @@ struct AnalysisView: View {
             Text("gas: $\(gas)")
             Text("groceries: $\(groceries)")
             Text("luxeries: $\(luxuries)")
-            Text("Miscellaneous: $\(misc)")
         }
         
     }

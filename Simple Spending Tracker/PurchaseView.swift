@@ -66,7 +66,7 @@ func addAmount(category: PurchaseView.Category, amountChosen: Double){
         luxuries += amountChosen
     }
     if (category == PurchaseView.Category.Miscellaneous) {
-        misc += amountChosen
+        miscellaneous += amountChosen
     }
     
 }

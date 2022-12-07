@@ -38,16 +38,20 @@ struct PurchaseView: View {
                     .keyboardType(.numberPad)
                 
             }
-            
-            Button("Save") {
-                addAmount(category: selectedCategory.self, amountChosen: Double(purchaseAmount) ?? 0.0)
+            ZStack{
+                RoundedRectangle(cornerRadius: 13)
+                    .fill(Color.yellow)
+                    .padding([.leading, .bottom, .trailing])
+                    .frame(width:250, height: 60)
+                Button("Save") {
+                    addAmount(category: selectedCategory.self, amountChosen: Double(purchaseAmount) ?? 0.0)
+                }
+                .padding(.bottom)
                 
             }
-            
         }
     }
 }
-
 
 
 
@@ -68,6 +72,7 @@ func addAmount(category: PurchaseView.Category, amountChosen: Double){
     if (category == PurchaseView.Category.Miscellaneous) {
         miscellaneous += amountChosen
     }
+    total+=amountChosen
     
 }
 
